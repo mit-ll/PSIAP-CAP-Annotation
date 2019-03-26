@@ -18,10 +18,10 @@ Prior to this PSIAP effort, current annotation capabilities for CAP imagery has 
 [Liu et al.](https://doi.org/10.1109/ITSC.2018.8569449) demonstrated that labeling individual features with bounding boxes is not required to produce useful annotations and analytics. Instead each CAP image is labeled with semantic text labels, such as *bridge* or *vegetation*. Multiple labels can easily and rapidly be assigned to faciliate efficient crowd sourcing. Labels can then be encoded as binary values to streamline their use as a training dataset for machine learning. Images are segmented and labeled in quadrants to improve the information for each image and better utilize the smaller screens of mobile devices. 
 
 ## Example CAP Imagery
-| Debris        | Flooding      | Landslide     |
+| Debris        | Flooding      | Damage     |
 | ------------- | ------------- | ------------- |
-| <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9080/614276/DJI_0008_a1c36d06-8e1b-4258-a6d9-17bf92b41df0.jpg" width="300">  | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9096/615127/TimCooli_1a91b3b3-9411-4b49-a4e3-47d11b234ef6.jpg" width="300">  | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9075/614119/A0118_AP_b0447b42-6c3b-4e9e-a2a1-05582cff4f95.jpg" width="300"> |
-| <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9080/614271/DJI_0006_be9b4a60-fec7-4bad-a1ee-29d2554db34f.jpg" width="300">   | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9096/615037/DSC_0007_a956a88f-c659-4db7-933e-c37a2df95211.jpg" width="300">  | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9097/614962/DSC_3159_a582dddc-9442-4bbd-b63b-0c4b0d06b46c.jpg" width="300"> |
+| <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9068/614055/DJI_0017_1444d71c-525c-44c4-ad1f-2199f3f070f7.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9120/615626/IMG_2019_a64dc7a7-0f92-4f02-938f-33e4cdc5826d.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9075/614140/A0069_AP_e4cdf881-c8d9-4fd3-81c8-d6ce9a3e6364.jpg" width="300"> |
+| <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9080/614276/DJI_0022_1e920dcc-84e4-41d3-91fa-04954208c168.jpg" width="300">   | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9096/615037/DSC_0007_a956a88f-c659-4db7-933e-c37a2df95211.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9068/614008/DJI_0013_9e945493-a1b3-4024-a48a-37733a2227ca.jpg" width="300"> |
 
 ## Useful Links
 * [Civil Air Patrol](https://www.gocivilairpatrol.com/)  
