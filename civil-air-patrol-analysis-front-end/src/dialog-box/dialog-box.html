@@ -1,0 +1,33 @@
+<!-- The real html for the dialog-box. -->
+<div>
+
+    <!-- The main div element for the dialog-box. -->
+    <div *ngIf='init == true || error == true'>
+
+        <!-- Dialog text. -->
+        <p [innerHTML]="dialog_title"><p>
+
+        <!-- Dialog text. -->
+        <p [innerHTML]="dialog_text"></p>
+
+        <!-- Input div for usersname. -->
+        <div id="input" *ngIf='submit_input ==  true'>
+
+            <!-- Input field for username. -->
+            <mat-form-field (keydown)="enter_click($event)">
+                <input #user_name matInput placeholder="Email" >
+            </mat-form-field>
+
+            <!-- Confirm button for the user to set their username. -->
+            <button id="submit_btn" class="btn btn-default" (click)="set_user_name(user_name)" >Submit</button>
+            
+        </div>
+
+        <!-- Close button for when user is viewing the dialog box. -->
+        <div id="input" *ngIf='confirm_input ==  true'>
+            <button class="btn btn-default" (click)="close()" >Close</button>
+        </div>
+
+    </div>
+
+</div>

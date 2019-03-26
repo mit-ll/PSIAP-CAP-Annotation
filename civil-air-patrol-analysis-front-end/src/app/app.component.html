@@ -1,0 +1,70 @@
+<!-- The main application div component. -->
+<div id="main">
+
+  <!-- The title of the applicaiton. -->
+  <div id="header">
+
+    <!-- The left float div. -->
+    <div id="left" >
+      <div id="instr_and_counter">
+        <button class="btn btn-default" (click)="open_instruction()">Instructions</button>
+        <span id="counter">Counter: {{ counter }}</span>
+      </div>
+      <div id="save_counter">
+          <button class="btn btn-default" [disabled]="disable_btns" (click)="save_counter()">Save Counter</button>
+      </div>
+    </div>
+
+    <!-- The right float div. -->
+    <div id="right">
+      <mat-form-field >
+        <mat-select placeholder="Data Set" [(value)]="data_set" (selectionChange)="change_data_set()">
+          <mat-option *ngFor="let data_set of data_set_cols" value="{{ data_set.data_set_name }}">{{ data_set.data_set_name }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <!-- The title of the application. -->
+    <h1>
+      {{ app_title }}
+    </h1>
+
+  </div>
+
+  <!-- The main photo div element. -->
+  <div id="main_photo_div" [style.width]="cur_width" (click)="change_photo_size($event.target)">
+    <img id="main_photo" [style.clip-path]="cur_clip" src="{{ cur_photo }}">
+  </div>
+
+  <!-- The name of the photo. -->
+  <span>{{ file_name }}</span>
+
+  <!-- Simplified instructions . -->
+  <div id="mini_instructions">
+    <span *ngIf="file_name">{{ app_text }}</span>
+  </div>
+
+  <!-- The classificaions div element divs. -->
+  <div class="row">
+
+    <div class="column">
+      <div class="class_left" *ngFor="let class of left_classes">
+          <mat-checkbox  [(ngModel)]="class.value"> {{ class.class_name }} </mat-checkbox>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="class_right" *ngFor="let class of right_classes">
+          <mat-checkbox [(ngModel)]="class.value"> {{ class.class_name }} </mat-checkbox>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Buttons for the user to interact with the application. -->
+  <div id="submit_buttons">
+    <button class="btn btn-default" [disabled]="disable_btns" (click)="submit()">Submit</button>
+    <button class="btn btn-default" [disabled]="disable_btns" (click)="reset_boxes()">Reset Checkboxes</button>
+  </div>
+
+</div>

@@ -1,0 +1,13 @@
+{
+  "classifications" : [
+
+    "bridge", "damaged",
+    "lava", "roads", 
+    "utilities","snow",
+    "vegatation (low)",
+
+    "building", "flooding",
+    "river", "useful", 
+    "smoke", "vegatation (high)" 
+  ]
+}

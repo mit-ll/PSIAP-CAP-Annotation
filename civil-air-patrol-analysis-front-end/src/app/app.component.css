@@ -1,0 +1,57 @@
+#main {
+    text-align:center;
+}
+#header {
+    font-family: Arial;
+}
+#left {
+    float: left;
+    padding: .5em 0em 0em 2em; 
+    font-size: 1.5em; 
+    text-align: left;
+}
+#save_counter {
+    padding: .5em 0em 0em 0em; 
+}
+#counter {
+    padding: 1em; 
+}
+#right {
+    float: right;
+}
+#main_photo_div {
+    box-shadow:inset 0px 0px 85px black;
+    -webkit-box-shadow:inset 0px 0px 85px black;
+    -moz-box-shadow:inset 0px 0px 85px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main_photo {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mini_instructions {
+    font-size: 1.5em; 
+    padding-top: .5em; 
+}
+.row {
+    padding: 2em;
+    display: flex;
+}
+.column {
+    flex: 0%;
+}
+.class_left {
+    padding: .5em;
+    margin-right: -25em;
+}
+.class_right {
+    padding: .5em;
+    margin-left: -25em;
+}
+#submit_buttons {
+    padding: 1em;
+}
