@@ -20,8 +20,8 @@ Prior to this PSIAP effort, current annotation capabilities for CAP imagery has 
 ## Example CAP Imagery
 | Debris        | Flooding      | Damage     |
 | ------------- | ------------- | ------------- |
-| <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9068/614055/DJI_0017_1444d71c-525c-44c4-ad1f-2199f3f070f7.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9120/615626/IMG_2019_a64dc7a7-0f92-4f02-938f-33e4cdc5826d.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9075/614140/A0069_AP_e4cdf881-c8d9-4fd3-81c8-d6ce9a3e6364.jpg" width="300"> |
-| <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9080/614276/DJI_0022_1e920dcc-84e4-41d3-91fa-04954208c168.jpg" width="300">   | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9096/615037/DSC_0007_a956a88f-c659-4db7-933e-c37a2df95211.jpg" width="300">  | <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9068/614008/DJI_0013_9e945493-a1b3-4024-a48a-37733a2227ca.jpg" width="300"> |
+| <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9068/614055/DJI_0017_1444d71c-525c-44c4-ad1f-2199f3f070f7.jpg" width="300">  | <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9120/615626/IMG_2019_a64dc7a7-0f92-4f02-938f-33e4cdc5826d.jpg" width="300">  | <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9075/614140/A0069_AP_e4cdf881-c8d9-4fd3-81c8-d6ce9a3e6364.jpg" width="300"> |
+| <img src="http://s3.amazonaws.com/fema-cap-imagery/Images/9080/614276/DJI_0022_1e920dcc-84e4-41d3-91fa-04954208c168.jpg" width="300">   | <img src="https://fema-cap-imagery.s3.amazonaws.com/Images/9096/615037/DSC_0007_a956a88f-c659-4db7-933e-c37a2df95211.jpg" width="300">  | <img src="https://s3.amazonaws.com/fema-cap-imagery/Images/9068/614008/DJI_0013_9e945493-a1b3-4024-a48a-37733a2227ca.jpg" width="300"> |
 
 ## Useful Links
 * [Civil Air Patrol](https://www.gocivilairpatrol.com/)  
